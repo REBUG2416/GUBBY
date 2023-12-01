@@ -57,3 +57,50 @@
     color: white;
     margin-top: 28px;
 }
+
+@media only screen and (max-width: 668px) {
+    img{
+        width: 380px;
+        height: 380px;
+    }
+    .container{
+        display: block;
+       width: 100%;
+       margin-left: 0px;
+       margin-top: 10px;
+    }
+    
+    
+
+    .imagecontainer{
+        width: 100%;
+        display: flex;
+        
+    }
+    
+    .textContainer>b>h1{
+        text-align: center;
+        font-weight: 600;
+        font-size: 18px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        color: black;
+    }
+    
+    .textContainer>p{
+        text-align: center;
+        font-size: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+    }
+
+    .textContainer{
+        width: 100%;
+        height: 220px;
+        margin: auto;
+    }
+    .btn{
+        margin-left: 113px;
+    }
+    
+}
